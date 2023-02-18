@@ -46,4 +46,5 @@ docker volume create --name postgresql_data
 
 wget https://github.com/SudeepGowda55/Installation_Bash_Scripts/blob/master/docker-compose.yml
 
-docker compose up -d
+echo -e "Update user name and password in the docker-compose.yml file\n Then run this command\n"
+echo "docker compose up -d"
