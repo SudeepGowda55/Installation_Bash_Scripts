@@ -44,7 +44,10 @@ docker volume create --name sonarqube_extensions
 docker volume create --name postgresql
 docker volume create --name postgresql_data
 
-wget https://github.com/SudeepGowda55/Installation_Bash_Scripts/blob/master/docker-compose.yml
+echo "Copy the docker-compose.yml code from my github"
 
-echo -e "Update user name and password in the docker-compose.yml file\n Then run this command\n"
-echo "docker compose up -d"
+sleep 5
+
+nano docker-compose.yml
+
+docker compose up -d
