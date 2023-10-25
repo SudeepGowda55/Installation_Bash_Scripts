@@ -18,6 +18,10 @@ sudo apt-get update
 
 sleep 2
 
+echo "Make sure You attached the new IAM Role to this instance"
+
+sleep 5
+
 aws s3 ls s3://vulnhub-ami
 
 read -p "Enter the Vulnhub Zip file URL : " FILEURL
